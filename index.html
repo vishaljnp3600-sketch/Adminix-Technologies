@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adminix Technologies Pvt Ltd</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-900 antialiased">
+  <!-- Header -->
+  <header class="bg-white shadow-sm sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <div class="w-10 h-10 bg-indigo-600 rounded-lg flex items-center justify-center text-white font-bold">A</div>
+        <div>
+          <h1 class="text-lg font-semibold">Adminix Technologies Pvt Ltd</h1>
+          <p class="text-sm text-gray-500">Web Development & Server Management</p>
+        </div>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#services" class="hover:text-indigo-600">Services</a>
+        <a href="#process" class="hover:text-indigo-600">Process</a>
+        <a href="#testimonials" class="hover:text-indigo-600">Testimonials</a>
+        <a href="#contact" class="hover:text-indigo-600">Contact</a>
+        <a href="tel:+911234567890" class="bg-indigo-600 text-white px-4 py-2 rounded-md">Call Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main class="max-w-7xl mx-auto px-6 py-12">
+    <section class="grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-4xl font-extrabold leading-tight">Professional Websites & Reliable Server Management</h2>
+        <p class="mt-4 text-gray-600">We build mobile-friendly, SEO-optimized websites and manage your servers with 24/7 monitoring — so you can focus on growing your business.</p>
+        <div class="mt-6 flex flex-wrap gap-4">
+          <a href="#contact" class="bg-indigo-600 text-white px-5 py-3 rounded-md shadow">Get Free Consultation</a>
+          <a href="#services" class="border border-indigo-600 text-indigo-600 px-5 py-3 rounded-md">Our Services</a>
+        </div>
+      </div>
+      <div class="rounded-lg overflow-hidden shadow-lg">
+        <img alt="Website preview" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=60" class="w-full h-80 object-cover">
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="mt-16">
+      <h3 class="text-2xl font-bold">Our Services</h3>
+      <p class="text-gray-600 mt-2">Full-stack solutions tailored for small & medium businesses.</p>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-sm">
+          <h4 class="font-semibold">Website Development</h4>
+          <p class="mt-2 text-gray-500">Responsive, SEO-friendly sites built with modern frameworks.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-sm">
+          <h4 class="font-semibold">Server & Cloud Management</h4>
+          <p class="mt-2 text-gray-500">Provisioning, monitoring, backups, and cloud migrations with minimal downtime.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-sm">
+          <h4 class="font-semibold">Network & Security</h4>
+          <p class="mt-2 text-gray-500">Firewall setup, VPNs, secure network architecture and regular audits.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section id="process" class="mt-16 bg-gradient-to-r from-indigo-50 to-white p-8 rounded-lg">
+      <h3 class="text-2xl font-bold">Our Process</h3>
+      <div class="mt-6 grid md:grid-cols-4 gap-6 text-sm text-gray-700">
+        <div class="bg-white p-4 rounded shadow-sm"><p class="font-semibold">1. Discovery</p><p class="mt-2">We learn your goals, audience, and timeline.</p></div>
+        <div class="bg-white p-4 rounded shadow-sm"><p class="font-semibold">2. Design</p><p class="mt-2">Wireframes and UI design focused on conversions.</p></div>
+        <div class="bg-white p-4 rounded shadow-sm"><p class="font-semibold">3. Build</p><p class="mt-2">Development, testing, and optimization for launch.</p></div>
+        <div class="bg-white p-4 rounded shadow-sm"><p class="font-semibold">4. Maintain</p><p class="mt-2">Ongoing support, monitoring, and improvements.</p></div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="mt-16">
+      <h3 class="text-2xl font-bold">Trusted by partners</h3>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded shadow-sm"><p class="text-gray-700">“Adminix transformed our old site into a fast, modern store. Support is excellent.”</p><p class="mt-4 text-sm font-semibold">— Rajesh, Retailer</p></div>
+        <div class="bg-white p-6 rounded shadow-sm"><p class="text-gray-700">“Server uptime improved dramatically after their migration.”</p><p class="mt-4 text-sm font-semibold">— Meera, SaaS Founder</p></div>
+        <div class="bg-white p-6 rounded shadow-sm"><p class="text-gray-700">“Quick, reliable, and clear communication throughout.”</p><p class="mt-4 text-sm font-semibold">— Anil, Agency</p></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="mt-16 bg-white p-8 rounded-lg shadow-sm">
+      <h3 class="text-2xl font-bold">Get in touch</h3>
+      <p class="mt-2 text-gray-600">Schedule a free consultation — we’ll evaluate your needs and provide a clear plan.</p>
+      <form class="mt-6 space-y-4">
+        <input class="w-full border rounded px-3 py-2" placeholder="Your Name" required>
+        <input type="email" class="w-full border rounded px-3 py-2" placeholder="Your Email" required>
+        <textarea class="w-full border rounded px-3 py-2" rows="4" placeholder="Message" required></textarea>
+        <button type="submit" class="bg-indigo-600 text-white px-5 py-3 rounded-md">Send Message</button>
+      </form>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="mt-16 rounded-lg overflow-hidden">
+      <div class="bg-indigo-600 text-white p-8 rounded-lg flex flex-col md:flex-row items-center justify-between">
+        <div>
+          <h4 class="text-xl font-bold">Ready to build something great?</h4>
+          <p class="mt-2 text-sm">Book a free consultation and get a project estimate within 48 hours.</p>
+        </div>
+        <div class="mt-4 md:mt-0">
+          <a href="#contact" class="bg-white text-indigo-600 px-5 py-3 rounded-md font-medium">Book Free Consultation</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t mt-12">
+    <div class="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between text-sm text-gray-600">
+      <p>© <script>document.write(new Date().getFullYear());</script> Adminix Technologies Pvt Ltd. All rights reserved.</p>
+      <div class="mt-4 md:mt-0">Made with ❤️ — <a href="#contact" class="text-indigo-600">Contact Us</a></div>
+    </div>
+  </footer>
+</body>
+</html>
